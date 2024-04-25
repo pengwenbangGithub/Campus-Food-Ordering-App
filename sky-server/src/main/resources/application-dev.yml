@@ -1,0 +1,23 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: qwe123123-
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    accessKeyId: LTAI5tB3eHWYJ4dxPr8p13wK
+    accessKeySecret: LcSYOiAz3jeUEM0BI5M8j7TbPuwxmC
+    bucketName: my-web-oss
+  wechat:
+    appid: wx87cdfd4dcef38024
+    secret: 45321d7b64a9f8f10ca3277c1b5f347c
+    mchid: 1  # 商务号
+    mch-serial-no: 1  # 证书的序列号
+    private-key-file-path: D:\66  # 私钥文件
+    api-v3-key: c  # 解密的密钥
+    we-chat-pay-cert-file-path: D:\66\66.pem
+    notify-url: /notify/paySuccess
+    refund-notify-url: /notify/refundSuccess
